@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Check if DYN_DNS_URL is set
+if [ -z "$URL" ]; then
+  exit 1
+fi
+
+# Check if INTERVAL_TIME is set
+if [ -z "$INTERVAL_TIME" ]; then
+  INTERVAL_TIME=300
+fi
+
+# Infinite loop
+while :
+do
+  curl $CURL_PARAM $URL
+  sleep $INTERVAL_TIME
+done
