@@ -1,6 +1,6 @@
 # docker-webcron
 
-Simple webcron with curl. Ideal for updating your DynDNS or triggering a website on a regular basis.
+Simple and small webcron docker container based an alpine linux with curl. Ideal for updating your DynDNS or triggering a website on a regular basis.
 
 ## Usage
 Simple run the following command:
