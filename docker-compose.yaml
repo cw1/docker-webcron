@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+    webcron:
+    image: cw1900/docker-webcron
+    restart: always
+    environment:
+      - INTERVAL_TIME=300
+      - URL=https://example.com/cron.php
