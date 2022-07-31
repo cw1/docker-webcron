@@ -13,6 +13,6 @@ fi
 # Infinite loop
 while :
 do
-  curl ${CURL_PARAM} ${URL}
-  sleep ${INTERVAL_TIME}
+  curl ${CURL_PARAM} "${URL}"
+  sleep "${INTERVAL_TIME}"
 done
