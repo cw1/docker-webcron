@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Check if DYN_DNS_URL is set
+# Check if URL is set
 if [ -z "$URL" ]; then
   exit 1
 fi
